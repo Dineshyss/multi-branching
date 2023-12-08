@@ -1,14 +1,14 @@
-pipeline {   
+ipipeline {   
     agent any
 
     stages {   
-        stage('Master branch') { 
+        stage('sprint branch') { 
             steps { 
                sh 'echo "This is master branch"' 
             }
         }
      
-        stage('sprint1') { 
+        stage('sprint') { 
             steps { 
                sh 'echo "sprint1 application..."'
             }
